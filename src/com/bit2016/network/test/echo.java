@@ -27,6 +27,7 @@ public class echo {
 			Socket socket=serverSocket.accept();
 			//InetSocketAddress inetSocketAddress=(InetSocketAddress)socket.getRemoteSocketAddress();
 			System.out.println("[서버] 연결됨 " );
+			System.out.println();
 			
 			//InputStream is=socket.getInputStream();
 			//OutputStream os=socket.getOutputStream();
