@@ -45,19 +45,12 @@ public class TCPClient {
 				data=a.nextLine();
 				if(data.equals("exit"))
 				{
+					socket.close();
 					break;
 				}
 				pw.println(data);
 				String aa=br.readLine();
 				System.out.println("<<"+aa);
-				
-				
-				
-				
-				
-				
-				
-			
 					
 			}
 	
