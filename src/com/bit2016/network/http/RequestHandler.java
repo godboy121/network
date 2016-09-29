@@ -19,6 +19,7 @@ public class RequestHandler extends Thread {
 	@Override
 	public void run() {
 		try {
+			//
 			// logging Remote Host IP Address & Port
 			InetSocketAddress inetSocketAddress = ( InetSocketAddress )socket.getRemoteSocketAddress();
 			consoleLog( "connected from " + inetSocketAddress.getAddress().getHostAddress() + ":" + inetSocketAddress.getPort() );
